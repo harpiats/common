@@ -1,0 +1,46 @@
+{
+  "name": "@harpia/common",
+  "license": "Apache-2.0",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "type": "module",
+  "author": {
+    "name": "Lucas Nathan",
+    "url": "https://github.com/lucasnjsilva"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/harpiats/common"
+  },
+  "homepage": "https://github.com/harpiats/common",
+  "description": "Common utilities for Harpia Framework",
+  "keywords": [
+    "harpia",
+    "bun",
+    "framework",
+    "web",
+    "api",
+    "harpia dev",
+    "harpiats",
+    "harpia framework",
+    "@harpia",
+    "@harpia/common"
+  ],
+  "peerDependencies": {
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^10.3.0",
+    "@harpia/core": "workspace:*",
+    "inflection": "^3.0.2",
+    "lodash": "^4.17.23",
+    "nodemailer": "^8.0.3",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.3.11",
+    "@types/inflection": "^2.0.0",
+    "@types/lodash": "^4.17.24",
+    "@types/nodemailer": "^7.0.11"
+  }
+}
