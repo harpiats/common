@@ -1,4 +1,4 @@
-import type { Response } from "harpiats";
+import type { Response } from "@harpia/core";
 import { ZodError } from "zod";
 import { AppError } from "./app-error";
 

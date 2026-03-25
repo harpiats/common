@@ -31,7 +31,7 @@
   },
   "dependencies": {
     "@faker-js/faker": "^10.3.0",
-    "@harpia/core": "workspace:*",
+    "@harpia/core": "^1.0.0",
     "inflection": "^3.0.2",
     "lodash": "^4.17.23",
     "nodemailer": "^8.0.3",
