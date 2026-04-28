@@ -1,4 +1,4 @@
-# @harpia/common
+# @harpiats/common
 
 Core utilities, types, and helpers for the Harpia framework.
 
@@ -26,7 +26,7 @@ This package provides foundational features that powers Harpia applications, abs
 Simply import the required component directly from the package:
 
 ```ts
-import { Utils, AppError } from "@harpia/common";
+import { Utils, AppError } from "@harpiats/common";
 
 const formatted = Utils.string.camelCase("Hello World");
 if (!formatted) {
